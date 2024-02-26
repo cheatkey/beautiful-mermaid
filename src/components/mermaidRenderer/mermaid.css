@@ -1,0 +1,63 @@
+.basic.label-container {
+  fill: white;
+  stroke: #ececec;
+}
+
+polygon.label-container {
+  fill: white;
+  stroke: #ececec;
+}
+
+.nodeLabel {
+  color: #424242;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.edgeLabel {
+  font-weight: 600;
+  color: #424242;
+  border: 2px solid #cdcdcd;
+  padding: 1px 5px;
+}
+
+.marker.flowchart {
+  fill: #cdcdcd;
+  stroke: #cdcdcd;
+}
+
+.edge-thickness-normal {
+  stroke: #cdcdcd;
+}
+
+/* sequenceDiagram */
+.actor.actor-top {
+  fill: white;
+  stroke: #ececec;
+}
+.actor.actor-bottom {
+  fill: white;
+  stroke: #ececec;
+}
+text.actor > tspan {
+  fill: #424242;
+  font-size: 16px;
+}
+.messageText {
+  fill: #676767;
+  background-color: black;
+}
+#arrowhead > path {
+  fill: #676767;
+  stroke: #676767;
+}
+.messageLine0 {
+  stroke: #676767;
+}
+.note {
+  fill: #424242;
+}
+.noteText > tspan {
+  stroke: #ececec;
+  font-weight: 200;
+}

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import mermaid from "mermaid";
 import { useMount, useDebounce } from "react-use";
 import mermaidCSS from "./mermaid.css?inline";

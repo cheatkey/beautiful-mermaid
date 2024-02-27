@@ -4,7 +4,6 @@ import { useMount, useDebounce } from "react-use";
 import mermaidCSS from "./mermaid.css?inline";
 import { MermaidBeautifier } from "./MermaidBeautifier";
 import useImageDownload from "./hooks/useImageDownload";
-import Collapsible from "../Collapsible";
 import TextareaAutosize from "react-textarea-autosize";
 
 interface MermaidRendererProps {

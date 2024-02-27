@@ -1,7 +1,7 @@
 import { useState } from "react";
-import MermaidRenderer from "./components/mermaidRenderer/mermaidRenderer";
 import TextareaAutosize from "react-textarea-autosize";
 import GithubCorner from "./components/GithubCorner/GithubCorner";
+import MermaidRenderer from "./components/mermaidRenderer/mermaidRenderer";
 
 const App = () => {
   const [mermaidString, setMermaidString] = useState(

@@ -148,11 +148,14 @@ export class MermaidBeautifier {
     this.svg.style.maxWidth = "unset";
   };
 
-  exec = () => {
+  exec = (highlightTargets?: string[]) => {
+    console.log("highlightTargets:", highlightTargets);
     this.setShadowToRect();
     this.setBorderRadiusToRect();
     this.removeEmptyEdgeLabel();
-    this.highlighNode(["Go shopping", `<i class="fa fa-car"></i> Car`]);
+    if (highlightTargets) {
+      this.highlighNode(highlightTargets);
+    }
     this.setSVGSize();
 
     return this.svg.outerHTML;
